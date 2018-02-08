@@ -10,4 +10,4 @@ Installing the Roo programming language on Linux as a Snap.
 6. In Linux, `cd` to the directory containing the `snap` folder which contains the `snapcraft.yaml` file (on my VM that's `cd '/media/psf/Home/Repos/snap-roo' 
 `)
 7. Type `snapcraft`
-8. Type `snapcraft release roo REVISION stable`
+8. Type `snapcraft push NAME_OF_DOT_SNAP_FILE_CREATED --release=stable`
