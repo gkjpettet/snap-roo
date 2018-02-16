@@ -1,5 +1,5 @@
 name: roo
-version: '1.3.4'
+version: '1.3.5'
 summary: The Roo programming language
 description: |
   Roo is a cross-platform dynamically-typed object-orientated interpreted open source scripting language which takes inspiration from Ruby (everything is an object) and Python (indentation matters for block scoping).
@@ -9,7 +9,7 @@ confinement: strict
 
 parts:
   roo:
-    source: https://github.com/roolang/roo/files/1725928/roo-134-linux64.zip
+    source: https://github.com/roolang/roo/files/1731334/roo-135-linux64.zip
     plugin: dump
 
 apps:
