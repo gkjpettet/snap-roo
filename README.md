@@ -2,7 +2,7 @@
 Installing the Roo programming language on Linux as a Snap.
 
 ## Steps for each new Roo build
-1. Compress the files and `packages` folder created by the Xojo build process into a `.zip` file and rename to `roo-X.X.X-linux64.zip` (where `X.X.X` is the version number). Make sure the version number is bigger than the previous one for Homebrew and Scoop to work correctly.
+1. Compress the files created by the Xojo build process into a `.zip` file and rename to `roo-XXX-linux64.zip` (where `XXX` is the version number). Make sure the version number is bigger than the previous one for Homebrew and Scoop to work correctly.
 2. Draft a new release for Roo and upload the Windows, Linux and macOS files. Copy the URL for the Linux download
 3. Update the `version` key to the new version number
 4. Set the `parts:roo:source` key in `snapcraft.yaml` to the Linux zip URL
