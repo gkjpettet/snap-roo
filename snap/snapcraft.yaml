@@ -9,7 +9,7 @@ confinement: strict
 
 parts:
   roo:
-    source: http://roolang.org/public/releases/roo-203-win64.zip
+    source: http://roolang.org/releases/roo-203-win64.zip
     plugin: dump
 
 apps:
